@@ -25,7 +25,7 @@ if ($result->num_rows > 0) {
        "</div>";
      }
 }else{
-  echo "Ei viestejä!";
+  echo "Ei viestejä!!";
 }
 $conn->close();
  ?>
