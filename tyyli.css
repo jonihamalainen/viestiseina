@@ -1,3 +1,30 @@
+body{
+  background-image: url("taustakuva.jpg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-attachment: fixed;
+  background-size: 100vw 100vh;
+}
 #viesti{
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-left: 35vw;
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 20px;
+  width: 25vw;
+  background-color: white;
+}
+#form{
+  margin-top: 5px;
+}
+.lahettaja{
+word-wrap: break-word;
+margin-top:2px;
+font-size: 25px;
+}
+.viesti{
+word-wrap: break-word;
+}
+.aika{
+text-align: right;
 }
